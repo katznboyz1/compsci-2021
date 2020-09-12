@@ -49,7 +49,8 @@ class JavaCheatSheet {
 
         //create a new ArrayList
         //the <> is called a generic, which ensures that whatever type is stated within it will be the only type in the ArrayList
-        //generics prevent the wrong types from being included, and any type errors will be caught at compilation
+        //generics allow you to make an instance that uses whatever type you want, as long as the type is an object and not a primitive 
+        //here is a more in depth explanation of generics https://www.youtube.com/watch?v=h7piyWnQbZA
         //arraylists are different from normal arrays because they are resizable, but this also means you interact with them differently
         ArrayList<String> newListOfWords = new ArrayList<String>();
 
